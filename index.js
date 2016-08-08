@@ -108,7 +108,7 @@ module.exports = (config) => {
     /**
      * Get subject of provided user from acs
      *
-     * @param {string} username - The subject (or username) of the requester.
+     * @param {string} subjectIdentifier - The subject (or username) of the requester.
      * @returns {promise} - A promise to authorize the user.
      *                      Resolves with the user and resource attributes.
      *                      Rejected if not authorized, or an error occurs.
